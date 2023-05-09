@@ -2,14 +2,17 @@
 
 
 ## Table of contents
-* [General info](General-info)
-* [main.py](main.py)
-* [statCombiner.py](statsCombiner.py)
-* [Stats.ipynb](Stats.ipynb)
+* [General info](#general-info)
+* [main.py](#main)
+* [statCombiner.py](#statsCombiner)
+* [Stats.ipynb](#stats)
+
+<a name="general-info"/>
 
 ### General info
 Project was written as a school project. The goals of it were to create script which finds 15-Puzzle's solutions using three different state space search algorithms and then to explore how these algorithms behave. Projects contains three core files (two of them are .py scripts and the third one is a jupyter notebook file, more details below) and other files which contain needed functions and class with its methods.
 
+<a name="main"/>
 
 ### main.py
 Main.py is the most important script. It starts solution finder. This program takes five positional arguments:
@@ -23,7 +26,12 @@ Main.py is the most important script. It starts solution finder. This program ta
 Example of how to run this script:
 <img width="724" alt="Zrzut ekranu 2023-05-9 o 18 01 12" src="https://github.com/ChristopherGroch/15Puzzle_Solver/assets/93371629/c203cbd3-2c31-4af8-abf5-63ec1ca24fc1">
 
+<a name="statsCombiner"/>
+
 ### statsCombiner.py
 StatsCombiner.py script looks for every text file located in current folder containing solution statistics. It saves all matching files' content in .csv file. 
+
+<a name="stats"/>
+
 ### Stats.ipynb
 This file uses .csv file prepared by statsCombiner.py to prepare useful graphs and tables.
