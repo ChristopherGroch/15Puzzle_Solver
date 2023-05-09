@@ -1,0 +1,5 @@
+4 4 - number of rows and columns
+1 2 3 4 - elements positions in the first row
+6 7 0 8 - elements positions in the second row (0 is an empty element)
+5 10 11 12 - elements positions in the third row
+9 13 14 15 - elements positions int he 'r' column

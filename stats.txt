@@ -1,0 +1,5 @@
+7 - the length of a solution
+8 - number of visited states
+16 - number of calculated states
+7 - maximum recursion depth
+0.905 - calculating time
