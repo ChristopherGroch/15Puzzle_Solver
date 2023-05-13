@@ -3,9 +3,9 @@
 
 ## Table of contents
 * [General info](General-info)
-* [main.py](main.py)
-* [statCombiner.py](statsCombiner.py)
-* [Stats.ipynb](Stats.ipynb)
+* [main.py](Script code/main.py)
+* [statCombiner.py](Graphs/statsCombiner.py)
+* [Stats.ipynb](Graphs/Stats.ipynb)
 
 ### General info
 Project was written as a school project. The goals of it were to create script which finds 15-Puzzle's solutions using three different state space search algorithms and then to explore how these algorithms behave. Projects contains three core files (two of them are .py scripts and the third one is a jupyter notebook file, more details below) and other files which contain needed functions and class with its methods.
