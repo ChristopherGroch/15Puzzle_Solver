@@ -1,12 +1,12 @@
 import State as St
 
 
-def readFile(path):
+def read_file(path):
     with open(path, 'r') as f:
         line = f.readline()
         r = int(line.split()[0])
         c = int(line.split()[1])
-        idealstate = St.createIdealState(r, c)
+        ideal_state = St.create_ideal_state(r, c)
 
         currentState = []
         for i in range(r):
@@ -22,10 +22,10 @@ def readFile(path):
                 if currentState[i][j] == 0:
                     zeroLoc['r'] = i
                     zeroLoc['c'] = j
-        return idealstate, currentState, zeroLoc
+        return ideal_state, currentState, zeroLoc
 
 
-def saveFirstFile(moves, path):
+def save_solution_file(moves, path):
     with open(path, 'w') as f:
         if moves is not None:
             if len(moves) != 0:
@@ -37,11 +37,11 @@ def saveFirstFile(moves, path):
         f.write('-1')
 
 
-def saveSecondFile(movesCount, visited, calculated, depth, time, path):
+def save_info_file(moves_count, visited, calculated, depth, time, path):
     with open(path, 'w') as f:
-        if movesCount is not None:
-            if movesCount != 0:
-                f.write(f"{movesCount}\n")
+        if moves_count is not None:
+            if moves_count != 0:
+                f.write(f"{moves_count}\n")
                 f.write(f"{visited}\n")
                 f.write(f"{calculated}\n")
                 f.write(f"{depth}\n")
