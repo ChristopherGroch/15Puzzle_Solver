@@ -23,7 +23,6 @@ wheels/
 share/python-wheels/
 *.egg-info/
 .idea/*
-.idea
 .DS_Store
 .installed.cfg
 *.egg
