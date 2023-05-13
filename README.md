@@ -23,8 +23,9 @@ Main.py is the most important script. It starts solution finder. This program ta
 * name of file where stats will be saved - stats.txt file shows what that file will contain
 
 
-Example of how to run this script:
-<img width="724" alt="Zrzut ekranu 2023-05-9 o 18 01 12" src="https://github.com/ChristopherGroch/15Puzzle_Solver/assets/93371629/c203cbd3-2c31-4af8-abf5-63ec1ca24fc1">
+Example of how to run this script: <br />
+python3 ./main.py astr hamm TEST_state.txt TEST_sol.txt TEST_info.txt
+
 
 <a name="statsCombiner"/>
 
